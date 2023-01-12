@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Quicksand:wght@300&family=Roboto:ital,wght@1,100&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.jay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.upper{
+    background-color: #95d387;
+ 
+    height: 33%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:serif ;
+   
+}
+h2{
+    font-family:montserrat;
+       
+       width: 4rem;
+       border-radius: 8px;
+     color:white;
+       text-align: center;
+}
+.stopw{
+    font-size: 4rem;
+    /* font-family:montserrat; */
+border-radius: 12px;
+    background-color: white;
+    margin: 45px;
+    width: 50rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border:black;
+}
+#lapo{
+    height: 33%;
+    overflow-y: scroll ;
+    background-color: #d8eaab;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.but{
+    background-color: #d3b44e;
+
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#hi{
+    background-color: #efcd5d;
+    border: none;
+    color: white;
+  padding: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px; 
+  }
+#hi:hover{
+    
+    background: white;
+    border: solid 1px white;
+    color: grey;
+    }
+    #rau{
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+       
+        border-radius: 12px;
+        
+        width: 8rem;
+        font-size: 20px;
+    }
+@media only screen and (max-width: 425px) {
+    
+    .stopw{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    .stopw{
+        margin: 37px;
+    }
+}
